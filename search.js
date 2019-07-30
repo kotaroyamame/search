@@ -45,7 +45,6 @@ function breadthFirstSearch(tree,fn,depth=0){
         for(const c of o.tree.child){
             que.push({tree:c,depth:o.depth+1});
         }
-        depth++;
     }
 }
 depthFirstSearch(tree,(o)=>{
