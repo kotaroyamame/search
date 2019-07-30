@@ -38,7 +38,6 @@ function depthFirstSearch(tree,fn,depth=0){
 function breadthFirstSearch(tree,fn,depth=0){
     const que=[];
     que.push({tree,depth});
-    
     while(que.length>0){
         const o = que.shift();
         fn(o);
